@@ -1,5 +1,7 @@
-﻿using System;
+﻿using System.Diagnostics;
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Demo.Data;
 
 namespace Demo.Migrations
 {
