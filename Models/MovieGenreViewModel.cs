@@ -1,7 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
-using Demo.Data;
 
 namespace Demo.Models
 {
