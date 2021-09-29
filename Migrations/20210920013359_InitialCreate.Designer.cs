@@ -19,7 +19,7 @@ namespace Demo.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.10");
 
-            modelBuilder.Entity("MvcMovie.Models.Movie", b =>
+            modelBuilder.Entity("Demo.Models.Movie", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -36,6 +36,7 @@ namespace Demo.Migrations
 
                     b.Property<string>("Title")
                         .HasColumnType("TEXT");
+                    
 
                     b.HasKey("Id");
 
